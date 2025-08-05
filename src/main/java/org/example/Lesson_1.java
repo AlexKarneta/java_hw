@@ -32,6 +32,6 @@ public class Lesson_1 {
         System.out.println( "d:"+d);
 
         System.out.println( "doubleValue:"+doubleValue);
-        System.out.println( "intValue:"+intValue);
+        System.out.println( "intValue:"+intValue); //потеря данных при преобразовании.инт целочисленное,даубл с плавающей точкой
     }
 }
