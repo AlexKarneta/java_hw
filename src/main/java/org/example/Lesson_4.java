@@ -90,9 +90,11 @@ public class Lesson_4 {
         //4
         String star = "*";
         for (int i = 0; i < 5; i++) {
-            System.out.println(); //перенос строки
+            String starResult = "";
             for (int j = 0; j <= i; j++)
-                System.out.print(star);
+                starResult += star;
+            System.out.println(starResult);
         }
+
     }
 }
