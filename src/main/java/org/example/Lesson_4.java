@@ -85,12 +85,12 @@ public class Lesson_4 {
         System.out.println(season);
         //3
         for (int i = 1; i <= 10; i++) {
-            System.out.println(5 * i);
+            System.out.println("5 * " + i + " = " + 5 * i);
         }
         //4
         String star = "*";
         for (int i = 0; i < 5; i++) {
-            System.out.println();
+            System.out.println(); //перенос строки
             for (int j = 0; j <= i; j++)
                 System.out.print(star);
         }
