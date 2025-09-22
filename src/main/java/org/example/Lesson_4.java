@@ -95,6 +95,5 @@ public class Lesson_4 {
                 starResult += star;
             System.out.println(starResult);
         }
-
     }
 }
