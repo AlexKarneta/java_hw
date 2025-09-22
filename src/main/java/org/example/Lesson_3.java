@@ -30,7 +30,7 @@ public class Lesson_3 {
             numbers++;
         }
         //3
-        int limit = 9;
+        int limit = tenNumbers.size() - 1;
         while (limit >= 0) {
             System.out.println(tenNumbers.get(limit));
             limit--;
