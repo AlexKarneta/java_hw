@@ -1,16 +1,20 @@
 package org.example;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-//1. Объяви List и заполни его числами от 1 до 10.
-//        2. Выведи на экран числа от 1 до 10 с помощью while.
-//        3. Выведи числа от 10 до 1 с помощью while.
-//        4. С помощью while найди сумму чисел всех значений твоего листа.
 public class Main {
     public static void main(String[] args) {
+        Car volvo= new Car();
+        volvo.brand="Volvo";
+        volvo.releaseDate.set(2023,11,8);
+        volvo.type="SUV";
 
+        System.out.println(volvo.brand);
+        System.out.println(volvo.releaseDate.getTime());
+
+        Car bmw= new Car("bmw", "suv", "yellow", "gas", 4, new GregorianCalendar(2020, Calendar.JUNE, 15));
+        System.out.println(bmw.type);
+        bmw.print();
     }
 }
